@@ -1,0 +1,97 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+#phan1{
+	background-color: #B3B3B3;
+	height: 100vh;
+	
+}
+#logo{
+	float: left;
+	padding-top:20px;
+	padding-left: 2%;
+	width: 10%;
+  	height: 19px;
+}
+#trongphan1{
+	width: 60%;
+	float: right;
+	height: 100vh;
+	background-color: white;
+	position: relative;
+}
+.topnav{
+	width: 100%;
+	float: right;
+}
+ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0px 0px 0px 10%;
+	overflow: hidden;
+	float: left;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: 1px solid black;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+#phan1-1{
+	width: 50%;
+	position: absolute;
+	transform: translateY(-50%);
+	top: 50%;
+	left: 30%;
+}
+#hinhphan1{
+	width: 40%;
+	float: left;
+	position: absolute;
+	vertical-align: middle;
+	transform: translateY(-50%);
+	top: 50%;
+}
+
+
+/*PHAN2*/
+#phan2{
+	padding-top:10vh;
+	text-align:center;
+	margin: 0 auto;
+	height: 100vh;
+}
+.gachngang{
+	width: 5%;
+	margin: 0 auto;
+	height: 2px;
+	background-color: #734df2;
+	border: none;
+}
+#phan2-1-trai{
+	width: 30%;
+	box-shadow: 0px 0px 20px 2px #888888; 
+	border-radius: 5px;
+}
+#phan2-container{
+	width: 60%;
+	margin: 0 auto;
+}
+#hinh2-1-trai{
+	width: 100%;
+}
+
