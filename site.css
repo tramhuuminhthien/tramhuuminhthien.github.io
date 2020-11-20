@@ -401,6 +401,9 @@ li a{
 		top:216vh;
 		width: 100%;
 	}
+	.phan2lap{
+		height: 267vh;
+	}
 	#phan2-1-phai-phai {
 		display: none;
 	}
@@ -425,19 +428,20 @@ li a{
 	}
 	.chualogothuonghieu img{
 		width: 40%;
-		height: 70%;
+		height: 60%;
 	}
 	.phan3container2{
 		height: 25vh;
+		padding-bottom: 10vh;
 	}
 	.chuphan4 {
-		padding-left: 0;
+		padding-left:0!important;
 	}
 	#phan4chua{
 		padding-top: 5px;
 	}
 	#phan4{
-		height: 125px;
+		height: 135px;
 	}
 	.social {
 		width: 60%;
