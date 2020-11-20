@@ -3,6 +3,14 @@
 	padding: 0;
 	margin: 0;
 }
+}
+.nuts{
+	background-color: red;
+	border: none;
+	padding: 4px 4px;
+	color: white;
+	border-radius: 10px;
+}
 .topnav input{
 	border-radius: 20px;
 	box-sizing: border-box;
@@ -336,7 +344,19 @@ li a{
 .banquyen{
 	text-align: center;
 }
-
+.chuphan4{
+	color: white;
+}
+.gachngangtop{
+	background-color: blueviolet;
+	width: 10%;
+	height: 3px;
+	top:47%;
+	position: absolute;
+	transform: translateY(-50%);
+	left: 52%;
+	z-index: 3;	
+}
 /*RESPONSIVE*/
 @media only screen and (max-width: 376px){
 	#fullnav{
@@ -451,6 +471,8 @@ li a{
 		padding-left:18%;	
 		padding-top: 5%;
 	}
-	
+	.gachngangtop{
+		display: none;
+	}
 }
 
