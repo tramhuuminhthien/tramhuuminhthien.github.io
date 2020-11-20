@@ -5,6 +5,8 @@
 	<title>Bài thi</title>
 	<link href="site.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11">	</script>
+	 <script src="js/jquery-2.1.4.min.js"></script>
 </head>
 <body>
 	<section id="phan1">
@@ -25,6 +27,9 @@
 		</nav>
 		<div class="clearfix"></div>
 		<img id="phan1hinh" src="img/hinhphan1.png"/>
+		<button id="movetop" onclick="topFunction()">
+			<i class="fas fa-chevron-up"></i>
+		</button>
 		<div>
 			<div id="phan1-2-trai">
 			</div>
@@ -160,7 +165,7 @@
 				<br>
 				<hr class="gachngang gach3">
 				<br>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam</p>
+				<p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit </p>
 			</div>
 			<div class="phan3-trai cach5">
 				<img class="hinhphan3" src="img/ca2.png">
@@ -168,7 +173,7 @@
 				<br>
 				<hr class="gachngang gach3">
 				<br>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam</p>
+				<p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit </p>
 			</div>
 			<div class="phan3-trai cach5">
 				<img class="hinhphan3" src="img/ca2.png">
@@ -176,7 +181,7 @@
 				<br>
 				<hr class="gachngang gach3">
 				<br>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam</p>
+				<p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit </p>
 			</div>
 		</div>
 		<div class="phan3container2">
@@ -230,6 +235,23 @@
 	</section>
 	<hr>
 	<p class="banquyen">Copyright 2020. SmartNews By NH</p>
+	<script>
+				window.onscroll = function () {
+					scrollFunction()
+				};
 
+				function scrollFunction() {
+					if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+						document.getElementById("movetop").style.display = "block";
+					} else {
+						document.getElementById("movetop").style.display = "none";
+					}
+				}
+
+								function topFunction() {
+					document.body.scrollTop = 0;
+					document.documentElement.scrollTop = 0;
+				}
+			</script>
 </body>
 </html>
