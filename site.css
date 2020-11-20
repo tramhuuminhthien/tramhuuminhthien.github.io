@@ -3,7 +3,6 @@
 	padding: 0;
 	margin: 0;
 }
-}
 .nuts{
 	background-color: red;
 	border: none;
@@ -34,6 +33,7 @@
 	right:30px;
 	bottom:30px;
 	display: none;
+
 }
 #chualogo{
 	background-color: #eceaf1;
